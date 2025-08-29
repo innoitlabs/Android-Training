@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <!-- Title and Lifecycle Counts -->
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activity Lifecycle Demo"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/holo_blue_light"
+            android:padding="12dp"
+            android:textColor="@android:color/white" />
+
+        <!-- Status Display -->
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: Initializing..."
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/holo_green_light"
+            android:padding="8dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Counter Display -->
+        <TextView
+            android:id="@+id/counterTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Counter: 0"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <!-- Timer Display -->
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timer: 0 seconds"
+            android:textSize="20sp"
+            android:layout_marginBottom="24dp"
+            android:textColor="@android:color/holo_green_dark" />
+
+        <!-- Text Input -->
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter some text to test state preservation..."
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@android:color/white"
+            android:elevation="2dp"
+            android:inputType="text" />
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="24dp">
+
+            <Button
+                android:id="@+id/incrementButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Increment Counter"
+                android:layout_marginEnd="8dp"
+                android:background="@android:color/holo_blue_light"
+                android:textColor="@android:color/white"
+                android:padding="12dp" />
+
+            <Button
+                android:id="@+id/resetButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset All"
+                android:layout_marginStart="8dp"
+                android:background="@android:color/holo_red_light"
+                android:textColor="@android:color/white"
+                android:padding="12dp" />
+
+        </LinearLayout>
+
+        <!-- Instructions -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📱 Testing Instructions:&#10;&#10;🎯 Basic Testing:&#10;• Watch Toast messages for lifecycle events&#10;• Observe the counter and timer updates&#10;• Type text and see state preservation&#10;&#10;🔄 Lifecycle Testing:&#10;• Press Home button → onPause + onStop&#10;• Return to app → onStart + onResume&#10;• Rotate screen → Full recreation cycle&#10;• Press Back button → onPause + onStop + onDestroy&#10;&#10;📊 Monitoring:&#10;• Check Logcat with filter: MainActivityLifecycle&#10;• Watch lifecycle counts update in real-time&#10;• Observe status changes in the green box"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:background="@android:color/holo_orange_light"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Features List -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✨ Features Demonstrated:&#10;&#10;✅ All 6 lifecycle methods implemented&#10;✅ Toast messages for visual feedback&#10;✅ State preservation (counter + text)&#10;✅ Configuration change handling&#10;✅ Resource management (Timer)&#10;✅ Persistent storage (SharedPreferences)&#10;✅ Real-time lifecycle counting&#10;✅ Status updates and logging&#10;✅ Memory leak prevention"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:background="@android:color/holo_purple"
+            android:padding="12dp"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

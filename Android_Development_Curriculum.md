@@ -865,3 +865,7 @@ A comprehensive travel app that integrates all learned concepts:
 ---
 
 *This curriculum provides a comprehensive path from beginner to advanced Android development, ensuring students are equipped with industry-ready skills and a portfolio of practical projects.*
+
+```shell
+open -a "Android Studio" .
+```
