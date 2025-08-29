@@ -20,6 +20,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ConstraintLayoutActivity"
+            android:exported="true"
+            android:label="ConstraintLayout Example" />
+        <activity
+            android:name=".RelativeLayoutActivity"
+            android:exported="true"
+            android:label="RelativeLayout Example" />
     </application>
 
 </manifest>

@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Layouts</string>
+    <string name="app_name">Greeting App</string>
+    <string name="app_title">Welcome to Greeting App</string>
+    <string name="app_logo">App Logo</string>
+    <string name="enter_name_hint">Enter your name</string>
+    <string name="submit_button">Submit</string>
+    <string name="clear_button">Clear</string>
+    <string name="welcome_message">Welcome!</string>
+    <string name="hello_format">Hello, %1$s!</string>
+    <string name="please_enter_name">Please enter a name</string>
+    <string name="change_color">Change Color</string>
+    <string name="reset_color">Reset Color</string>
+    <string name="name_required">Name is required</string>
+    <string name="invalid_name">Invalid name format</string>
+    <string name="name_validation_error">Name must be at least 2 characters and contain only letters</string>
 </resources>

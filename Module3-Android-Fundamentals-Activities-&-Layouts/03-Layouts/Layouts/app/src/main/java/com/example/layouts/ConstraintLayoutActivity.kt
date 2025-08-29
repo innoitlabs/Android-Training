@@ -1,55 +1,36 @@
 package com.example.layouts
 
-import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.widget.Button
 import android.widget.EditText
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class ConstraintLayoutActivity : AppCompatActivity() {
     
     private lateinit var nameInput: EditText
     private lateinit var submitButton: Button
     private lateinit var clearButton: Button
-    private lateinit var colorButton: Button
     private lateinit var outputText: TextView
-    private lateinit var rootLayout: LinearLayout
-    
-    // Navigation buttons
-    private lateinit var constraintLayoutButton: Button
-    private lateinit var relativeLayoutButton: Button
-    
-    private var isColorChanged = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_constraint_example)
 
         // Initialize views
         initializeViews()
         
         // Set up event listeners
         setupEventListeners()
-        
-        // Set up navigation listeners
-        setupNavigationListeners()
     }
 
     private fun initializeViews() {
         nameInput = findViewById(R.id.nameInput)
         submitButton = findViewById(R.id.submitButton)
         clearButton = findViewById(R.id.clearButton)
-        colorButton = findViewById(R.id.colorButton)
         outputText = findViewById(R.id.outputText)
-        rootLayout = findViewById(R.id.rootLayout)
-        
-        // Navigation buttons
-        constraintLayoutButton = findViewById(R.id.constraintLayoutButton)
-        relativeLayoutButton = findViewById(R.id.relativeLayoutButton)
     }
 
     private fun setupEventListeners() {
@@ -80,18 +61,6 @@ class MainActivity : AppCompatActivity() {
             nameInput.error = null
         }
 
-        // Color change button click listener
-        colorButton.setOnClickListener {
-            if (isColorChanged) {
-                rootLayout.setBackgroundColor(getColor(R.color.backgroundColor))
-                colorButton.text = getString(R.string.change_color)
-            } else {
-                rootLayout.setBackgroundColor(getColor(R.color.secondaryColor))
-                colorButton.text = getString(R.string.reset_color)
-            }
-            isColorChanged = !isColorChanged
-        }
-
         // Text change listener for real-time validation
         nameInput.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
@@ -104,20 +73,6 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         })
-    }
-
-    private fun setupNavigationListeners() {
-        // ConstraintLayout example button
-        constraintLayoutButton.setOnClickListener {
-            val intent = Intent(this, ConstraintLayoutActivity::class.java)
-            startActivity(intent)
-        }
-
-        // RelativeLayout example button
-        relativeLayoutButton.setOnClickListener {
-            val intent = Intent(this, RelativeLayoutActivity::class.java)
-            startActivity(intent)
-        }
     }
 
     private fun validateName(name: String): Boolean {
