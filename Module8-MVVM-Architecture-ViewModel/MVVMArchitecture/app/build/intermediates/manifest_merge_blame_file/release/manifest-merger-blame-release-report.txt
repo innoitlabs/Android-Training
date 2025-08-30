@@ -1,0 +1,141 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mvvmarchitecture"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.12.0] /Users/prakashadabala/.gradle/caches/transforms-3/4cfdc159b56eff9aead4aa3d19f68758/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.mvvmarchitecture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.12.0] /Users/prakashadabala/.gradle/caches/transforms-3/4cfdc159b56eff9aead4aa3d19f68758/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.12.0] /Users/prakashadabala/.gradle/caches/transforms-3/4cfdc159b56eff9aead4aa3d19f68758/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.mvvmarchitecture.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.12.0] /Users/prakashadabala/.gradle/caches/transforms-3/4cfdc159b56eff9aead4aa3d19f68758/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.12.0] /Users/prakashadabala/.gradle/caches/transforms-3/4cfdc159b56eff9aead4aa3d19f68758/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:7:5-24:19
+20        android:allowBackup="true"
+20-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:8:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.12.0] /Users/prakashadabala/.gradle/caches/transforms-3/4cfdc159b56eff9aead4aa3d19f68758/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:9:9-65
+23        android:extractNativeLibs="false"
+24        android:fullBackupContent="@xml/backup_rules"
+24-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:10:9-54
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:11:9-43
+26        android:label="@string/app_name"
+26-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:12:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:13:9-54
+28        android:supportsRtl="true"
+28-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:14:9-35
+29        android:theme="@style/Theme.MVVMArchitecture" >
+29-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:15:9-54
+30        <activity
+30-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:16:9-23:20
+31            android:name="com.example.mvvmarchitecture.MainActivity"
+31-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:17:13-41
+32            android:exported="true" >
+32-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:18:13-36
+33            <intent-filter>
+33-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:19:13-22:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:20:17-69
+34-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:20:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:21:17-77
+36-->/Users/prakashadabala/Documents/Training/Android-Training/Module8-MVVM-Architecture-ViewModel/MVVMArchitecture/app/src/main/AndroidManifest.xml:21:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <provider
+40-->[androidx.emoji2:emoji2:1.2.0] /Users/prakashadabala/.gradle/caches/transforms-3/077d1a13c4edc7852bc7d72d80f61652/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+41            android:name="androidx.startup.InitializationProvider"
+41-->[androidx.emoji2:emoji2:1.2.0] /Users/prakashadabala/.gradle/caches/transforms-3/077d1a13c4edc7852bc7d72d80f61652/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+42            android:authorities="com.example.mvvmarchitecture.androidx-startup"
+42-->[androidx.emoji2:emoji2:1.2.0] /Users/prakashadabala/.gradle/caches/transforms-3/077d1a13c4edc7852bc7d72d80f61652/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+43            android:exported="false" >
+43-->[androidx.emoji2:emoji2:1.2.0] /Users/prakashadabala/.gradle/caches/transforms-3/077d1a13c4edc7852bc7d72d80f61652/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+44            <meta-data
+44-->[androidx.emoji2:emoji2:1.2.0] /Users/prakashadabala/.gradle/caches/transforms-3/077d1a13c4edc7852bc7d72d80f61652/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+45-->[androidx.emoji2:emoji2:1.2.0] /Users/prakashadabala/.gradle/caches/transforms-3/077d1a13c4edc7852bc7d72d80f61652/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+46                android:value="androidx.startup" />
+46-->[androidx.emoji2:emoji2:1.2.0] /Users/prakashadabala/.gradle/caches/transforms-3/077d1a13c4edc7852bc7d72d80f61652/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+47            <meta-data
+47-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/prakashadabala/.gradle/caches/transforms-3/97b17a91e8bc4d8ac5894ca3d4e04403/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/prakashadabala/.gradle/caches/transforms-3/97b17a91e8bc4d8ac5894ca3d4e04403/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+49                android:value="androidx.startup" />
+49-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/prakashadabala/.gradle/caches/transforms-3/97b17a91e8bc4d8ac5894ca3d4e04403/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+50            <meta-data
+50-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+51                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+51-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+52                android:value="androidx.startup" />
+52-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+53        </provider>
+54
+55        <service
+55-->[androidx.room:room-runtime:2.6.0] /Users/prakashadabala/.gradle/caches/transforms-3/09d877882f4707c16672e6305555fa95/transformed/room-runtime-2.6.0/AndroidManifest.xml:24:9-28:63
+56            android:name="androidx.room.MultiInstanceInvalidationService"
+56-->[androidx.room:room-runtime:2.6.0] /Users/prakashadabala/.gradle/caches/transforms-3/09d877882f4707c16672e6305555fa95/transformed/room-runtime-2.6.0/AndroidManifest.xml:25:13-74
+57            android:directBootAware="true"
+57-->[androidx.room:room-runtime:2.6.0] /Users/prakashadabala/.gradle/caches/transforms-3/09d877882f4707c16672e6305555fa95/transformed/room-runtime-2.6.0/AndroidManifest.xml:26:13-43
+58            android:exported="false" />
+58-->[androidx.room:room-runtime:2.6.0] /Users/prakashadabala/.gradle/caches/transforms-3/09d877882f4707c16672e6305555fa95/transformed/room-runtime-2.6.0/AndroidManifest.xml:27:13-37
+59
+60        <receiver
+60-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+61            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+61-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+62            android:directBootAware="false"
+62-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+63            android:enabled="true"
+63-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+64            android:exported="true"
+64-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+65            android:permission="android.permission.DUMP" >
+65-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+66            <intent-filter>
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+67                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+68            </intent-filter>
+69            <intent-filter>
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+70                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+71            </intent-filter>
+72            <intent-filter>
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+73                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+74            </intent-filter>
+75            <intent-filter>
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+76                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/prakashadabala/.gradle/caches/transforms-3/2d4088b2874439c22b2b769566e520b0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+77            </intent-filter>
+78        </receiver>
+79    </application>
+80
+81</manifest>

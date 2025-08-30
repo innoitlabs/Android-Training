@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Deep Linking Demo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the Home Fragment"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/goToDetailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Detail (ID: 42)"
+        android:textSize="16sp"
+        android:padding="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You can also test deep links using:\n\nadb shell am start -W -a android.intent.action.VIEW -d 'myapp://detail/42' com.example.deeplinking\n\nor\n\nmyapp://detail/42 in browser"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        android:background="#F0F0F0" />
+
+</LinearLayout>

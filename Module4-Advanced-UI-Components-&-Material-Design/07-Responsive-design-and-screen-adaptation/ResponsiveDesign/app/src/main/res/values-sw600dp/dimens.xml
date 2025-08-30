@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text sizes for tablets -->
+    <dimen name="text_size_small">16sp</dimen>
+    <dimen name="text_size_medium">20sp</dimen>
+    <dimen name="text_size_large">28sp</dimen>
+    <dimen name="text_size_xlarge">36sp</dimen>
+    
+    <!-- Margins and padding for tablets -->
+    <dimen name="margin_small">12dp</dimen>
+    <dimen name="margin_medium">24dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_xlarge">48dp</dimen>
+    
+    <!-- Profile image sizes for tablets -->
+    <dimen name="profile_image_size_small">120dp</dimen>
+    <dimen name="profile_image_size_medium">180dp</dimen>
+    <dimen name="profile_image_size_large">250dp</dimen>
+    
+    <!-- Button sizes for tablets -->
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="button_min_width">160dp</dimen>
+</resources>

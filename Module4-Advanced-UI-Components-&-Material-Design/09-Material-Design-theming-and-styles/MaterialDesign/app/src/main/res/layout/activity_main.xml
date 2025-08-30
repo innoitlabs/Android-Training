@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header Section -->
+        <TextView
+            android:id="@+id/headerTitle"
+            style="@style/TextAppearance.MaterialDesign.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Material Design Demo" />
+
+        <TextView
+            android:id="@+id/headerSubtitle"
+            style="@style/TextAppearance.MaterialDesign.Subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Exploring themes and styles" />
+
+        <!-- Profile Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/profileCard"
+            style="@style/Widget.MaterialDesign.Card.Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Profile Header -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="16dp">
+
+                    <!-- Avatar Placeholder -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_marginEnd="16dp"
+                        app:cardCornerRadius="32dp"
+                        app:cardBackgroundColor="@color/purple_500"
+                        app:cardElevation="4dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="JD"
+                            android:textColor="@color/white"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- Profile Info -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/profileName"
+                            style="@style/TextAppearance.MaterialDesign.Title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp"
+                            android:text="John Doe" />
+
+                        <TextView
+                            android:id="@+id/profileRole"
+                            style="@style/TextAppearance.MaterialDesign.Subtitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Android Developer" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Profile Description -->
+                <TextView
+                    android:id="@+id/profileDescription"
+                    style="@style/TextAppearance.MaterialDesign.Body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="Passionate about creating beautiful and functional Android applications using Material Design principles." />
+
+                <!-- Skills Chips -->
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/chipGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    app:singleLine="false">
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kotlin"
+                        style="@style/Widget.MaterialDesign.Chip" />
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Android"
+                        style="@style/Widget.MaterialDesign.Chip" />
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Material Design"
+                        style="@style/Widget.MaterialDesign.Chip" />
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jetpack"
+                        style="@style/Widget.MaterialDesign.Chip" />
+
+                </com.google.android.material.chip.ChipGroup>
+
+                <!-- Action Buttons -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="end">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/outlinedButton"
+                        style="@style/Widget.MaterialDesign.Button.Outlined"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:text="Edit Profile" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/primaryButton"
+                        style="@style/Widget.MaterialDesign.Button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Save Changes" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Settings Section -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/settingsCard"
+            style="@style/Widget.MaterialDesign.Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/settingsTitle"
+                    style="@style/TextAppearance.MaterialDesign.Subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="Theme Settings" />
+
+                <TextView
+                    android:id="@+id/settingsDescription"
+                    style="@style/TextAppearance.MaterialDesign.Body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="Customize your app appearance by switching between light and dark themes." />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/themeToggleButton"
+                    style="@style/Widget.MaterialDesign.Button.Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toggle Dark/Light Theme" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Info Section -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/infoCard"
+            style="@style/Widget.MaterialDesign.Card.Info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/infoTitle"
+                    style="@style/TextAppearance.MaterialDesign.Subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="About This Demo" />
+
+                <TextView
+                    android:id="@+id/infoDescription"
+                    style="@style/TextAppearance.MaterialDesign.Body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="This demo showcases Material Design theming and styling principles." />
+
+                <TextView
+                    android:id="@+id/quoteText"
+                    style="@style/TextAppearance.MaterialDesign.Quote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="Material Design is a comprehensive guide for visual design." />
+
+                <TextView
+                    android:id="@+id/infoCaption"
+                    style="@style/TextAppearance.MaterialDesign.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Built with Material Components 1.12.0" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Features Section -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/featuresCard"
+            style="@style/Widget.MaterialDesign.Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/featuresTitle"
+                    style="@style/TextAppearance.MaterialDesign.Subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="Key Features" />
+
+                <TextView
+                    style="@style/TextAppearance.MaterialDesign.Body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="• Material Design 3 theming" />
+
+                <TextView
+                    style="@style/TextAppearance.MaterialDesign.Body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="• Dark/Light theme support" />
+
+                <TextView
+                    style="@style/TextAppearance.MaterialDesign.Body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="• Custom button and text styles" />
+
+                <TextView
+                    style="@style/TextAppearance.MaterialDesign.Body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="• Responsive card layouts" />
+
+                <TextView
+                    style="@style/TextAppearance.MaterialDesign.Body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Accessibility features" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Fragment"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/detailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item ID from Deep Link: Loading..."
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This screen was opened via deep link!\n\nYou can test different IDs:\n\nmyapp://detail/123\nmyapp://detail/abc\nmyapp://detail/999"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        android:background="#F0F0F0" />
+
+</LinearLayout>

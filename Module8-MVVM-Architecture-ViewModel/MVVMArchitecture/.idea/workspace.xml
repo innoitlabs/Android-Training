@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.MVVMArchitecture</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0eafa065-315b-43ec-a486-1bdeeae2c187" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/02-CardView-and-MaterialCardView/CardView/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/02-CardView-and-MaterialCardView/CardView/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/02-CardView-and-MaterialCardView/CardView/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/02-CardView-and-MaterialCardView/CardView/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/02-CardView-and-MaterialCardView/CardView/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/02-CardView-and-MaterialCardView/CardView/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/02-CardView-and-MaterialCardView/CardView/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/02-CardView-and-MaterialCardView/CardView/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/03-FloatingActionButton-and-Snackbar/FloatingButtonSnackbar/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/03-FloatingActionButton-and-Snackbar/FloatingButtonSnackbar/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/03-FloatingActionButton-and-Snackbar/FloatingButtonSnackbar/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/03-FloatingActionButton-and-Snackbar/FloatingButtonSnackbar/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/03-FloatingActionButton-and-Snackbar/FloatingButtonSnackbar/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/03-FloatingActionButton-and-Snackbar/FloatingButtonSnackbar/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/03-FloatingActionButton-and-Snackbar/FloatingButtonSnackbar/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/03-FloatingActionButton-and-Snackbar/FloatingButtonSnackbar/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/androidTest/java/com/example/bottomnavigationviewandtablayout/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/java/com/example/bottomnavigationviewandtablayout/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/app/src/test/java/com/example/bottomnavigationviewandtablayout/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/04-BottomNavigationView-and-TabLayout/BottomNavigationViewAndTabLayout/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/androidTest/java/com/example/toolbarandappbarlayout/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/java/com/example/toolbarandappbarlayout/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/app/src/test/java/com/example/toolbarandappbarlayout/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/05-Toolbar-and-AppBarLayout/ToolbarAndAppBarLayout/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/androidTest/java/com/example/customviews/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/java/com/example/customviews/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/app/src/test/java/com/example/customviews/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/06-Custom-views-and-view-groups/CustomViews/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/androidTest/java/com/example/responsivedesign/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/java/com/example/responsivedesign/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/app/src/test/java/com/example/responsivedesign/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/07-Responsive-design-and-screen-adaptation/ResponsiveDesign/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/androidTest/java/com/example/accessibilityfeatures/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/java/com/example/accessibilityfeatures/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/app/src/test/java/com/example/accessibilityfeatures/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/08-Accessibility-features-and-content-descriptions/AccessibilityFeatures/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/androidTest/java/com/example/materialdesign/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/java/com/example/materialdesign/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/app/src/test/java/com/example/materialdesign/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module4-Advanced-UI-Components-&amp;-Material-Design/09-Material-Design-theming-and-styles/MaterialDesign/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/androidTest/java/com/example/fragementlifecycle/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/java/com/example/fragementlifecycle/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/app/src/test/java/com/example/fragementlifecycle/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/01-Fragment-lifecycle-and-management/FragementLifecycle/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/androidTest/java/com/example/navigationgraphs/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/java/com/example/navigationgraphs/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/app/src/test/java/com/example/navigationgraphs/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/02-Navigation-graphs-and-destinations/NavigationGraphs/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/androidTest/java/com/example/safeargs/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/java/com/example/safeargs/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/app/src/test/java/com/example/safeargs/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/03-Safe-Args-for-type-safe-navigation/SafeArgs/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/04-Fragment-transactions/FragmentTransactions/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/04-Fragment-transactions/FragmentTransactions/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/04-Fragment-transactions/FragmentTransactions/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/04-Fragment-transactions/FragmentTransactions/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/04-Fragment-transactions/FragmentTransactions/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/04-Fragment-transactions/FragmentTransactions/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/04-Fragment-transactions/FragmentTransactions/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/04-Fragment-transactions/FragmentTransactions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/04-Fragment-transactions/FragmentTransactions/app/src/main/java/com/example/fragmenttransactions/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/04-Fragment-transactions/FragmentTransactions/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/androidTest/java/com/example/bottomnavigation/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/java/com/example/bottomnavigation/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/app/src/test/java/com/example/bottomnavigation/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/05-Bottom-navigation-fragments/BottomNavigation/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/androidTest/java/com/example/viewpager2tablayout/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/java/com/example/viewpager2tablayout/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/app/src/test/java/com/example/viewpager2tablayout/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/06-ViewPager2-and-TabLayout-integration/ViewPager2TabLayout/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/androidTest/java/com/example/deeplinking/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/java/com/example/deeplinking/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/app/src/test/java/com/example/deeplinking/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module5-Fragments-Navigation-Components/07-Deep-linking-and-navigation-patterns/DeepLinking/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/androidTest/java/com/example/roomdatabase/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/java/com/example/roomdatabase/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/app/src/test/java/com/example/roomdatabase/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/01-Room-database-architecture/RoomDatabase/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/src/androidTest/java/com/example/sharedpreferences/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/src/main/java/com/example/sharedpreferences/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/app/src/test/java/com/example/sharedpreferences/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module6-Data-Persistence-Room-Database/08-SharedPreferences-for-simple-data-storage/SharedPreferences/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/androidTest/java/com/example/networking/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/java/com/example/networking/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/app/src/test/java/com/example/networking/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module7-Networking-REST-APIs/01-Networking-Part-1/Networking/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module3-Android-Fundamentals-Activities-&amp;-Layouts/03-Layouts/Layouts/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module3-Android-Fundamentals-Activities-&amp;-Layouts/03-Layouts/Layouts/.idea/gradle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/Users/prakashadabala/.android/avd/Medium_Phone.avd)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MVVM Architecture" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="31xFZaEBX4EDoRIplkmQMzzsoDo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="MVVMArchitecture.app" />
+      <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="ALLOW_ASSUME_VERIFIED" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="RESTORE_FRESH_INSTALL_ONLY" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0eafa065-315b-43ec-a486-1bdeeae2c187" name="Changes" comment="" />
+      <created>1756457872242</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756457872242</updated>
+    </task>
+    <servers />
+  </component>
+</project>

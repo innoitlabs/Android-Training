@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.mvvmarchitecture.app-mergeReleaseResources-43:/layout/activity_main.xml",
+        "source": "com.example.mvvmarchitecture.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/prakashadabala/.gradle/daemon/8.4/com.example.mvvmarchitecture.app-mergeReleaseResources-43:/layout/item_user.xml",
+        "source": "/Users/prakashadabala/.gradle/daemon/8.4/com.example.mvvmarchitecture.app-main-45:/layout/item_user.xml"
+    },
+    {
+        "merged": "/Users/prakashadabala/.gradle/daemon/8.4/com.example.mvvmarchitecture.app-mergeReleaseResources-43:/layout/activity_main.xml",
+        "source": "/Users/prakashadabala/.gradle/daemon/8.4/com.example.mvvmarchitecture.app-main-45:/layout/activity_main.xml"
+    }
+]

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Responsive Profile</string>
+    <string name="profile_name">John Doe</string>
+    <string name="profile_email">john.doe@example.com</string>
+    <string name="profile_phone">+1 (555) 123-4567</string>
+    <string name="profile_location">San Francisco, CA</string>
+    <string name="profile_bio">Android Developer with 5+ years of experience in mobile app development. Passionate about creating user-friendly and responsive applications.</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="follow">Follow</string>
+    <string name="message">Message</string>
+    <string name="profile_title">Profile</string>
+</resources>

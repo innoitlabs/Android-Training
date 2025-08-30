@@ -868,4 +868,12 @@ A comprehensive travel app that integrates all learned concepts:
 
 ```shell
 open -a "Android Studio" .
+cd ProjectFolder && ./gradlew build
+./gradlew clean build
+./gradlew clean build --refresh-dependencies
+rm -rf ~/.gradle/caches/8.13/transforms/
+./gradlew clean 
+./gradlew assembleDebug 
+./gradlew installDebug
+ls -la app/build/outputs/apk/debug/ 
 ```

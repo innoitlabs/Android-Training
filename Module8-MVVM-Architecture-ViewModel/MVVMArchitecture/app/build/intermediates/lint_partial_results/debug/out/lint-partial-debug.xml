@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.4" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.mvvmarchitecture.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.purple_200"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="3"
+            column="12"
+            startOffset="62"
+            endLine="3"
+            endColumn="29"
+            endOffset="79"/>
+        <entry
+            name="model"
+            string="attr[colorPrimary(R),actionBarSize(R),colorPrimaryVariant(R)],color[purple_200(D),black(U),teal_200(U),white(U),teal_700(U),purple_700(U),purple_500(U)],drawable[ic_launcher_foreground(U)],id[appBarLayout(R),searchLayout(R),errorLayout(R),userAvatar(R),retryButton(R),swipeRefreshLayout(R),main(R),toolbar(R),errorText(R),recyclerView(R),progressBar(R),searchEditText(R)],layout[activity_main(U),item_user(U)],mipmap[ic_launcher_round(U),ic_launcher(U)],string[app_name(U)],style[Theme_MVVMArchitecture(U),Theme_Material3_DayNight_NoActionBar(R)],xml[data_extraction_rules(U),backup_rules(U)];a^6,17^0^1^b^c^18,19^9^a,1a^9^a,1c^1d^9^8^6^5^7^4^2;;;"/>
+    </map>
+
+</incidents>

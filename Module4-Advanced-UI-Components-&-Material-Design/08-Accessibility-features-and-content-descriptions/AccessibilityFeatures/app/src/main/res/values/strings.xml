@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Accessibility Features</string>
+    
+    <!-- Accessibility Content Descriptions -->
+    <string name="app_logo_description">Accessibility Demo App Logo</string>
+    <string name="profile_picture_description">User profile picture</string>
+    <string name="save_button_description">Save profile information</string>
+    <string name="cancel_button_description">Cancel profile changes</string>
+    <string name="start_progress_description">Start progress simulation</string>
+    <string name="reset_progress_description">Reset progress to zero</string>
+    <string name="action_button_description">Button with custom accessibility actions</string>
+    <string name="update_status_description">Update status message</string>
+    
+    <!-- Form Labels -->
+    <string name="name_label">Name:</string>
+    <string name="email_label">Email:</string>
+    <string name="phone_label">Phone:</string>
+    
+    <!-- Form Hints -->
+    <string name="name_hint">Enter your name</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="phone_hint">Enter your phone number</string>
+    
+    <!-- Error Messages -->
+    <string name="error_name_required">Name is required</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_phone_required">Phone number is required</string>
+    <string name="error_name_too_short">Name must be at least 2 characters long</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_phone_too_short">Phone number must be at least 10 digits</string>
+    
+    <!-- Status Messages -->
+    <string name="status_ready">Ready to start</string>
+    <string name="status_saving">Saving profile...</string>
+    <string name="status_saved">Profile saved successfully!</string>
+    <string name="status_cleared">Form cleared</string>
+    <string name="status_progress_starting">Starting progress simulation...</string>
+    <string name="status_progress_completed">Progress simulation completed!</string>
+    <string name="status_progress_reset">Progress reset to zero</string>
+    
+    <!-- Section Headers -->
+    <string name="profile_information">Profile Information</string>
+    <string name="progress_indicator">Progress Indicator</string>
+    <string name="custom_actions">Custom Actions</string>
+    <string name="status_updates">Status Updates</string>
+    
+    <!-- Button Text -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="start_progress">Start Progress</string>
+    <string name="reset">Reset</string>
+    <string name="custom_action_button">Custom Action Button</string>
+    <string name="update_status">Update Status</string>
+    
+    <!-- Accessibility Actions -->
+    <string name="long_press_options">Long press to show options</string>
+    <string name="custom_action">Custom action</string>
+    <string name="update_progress">Update progress</string>
+    
+    <!-- Accessibility Announcements -->
+    <string name="progress_announcement">Progress updated to %1$d%%</string>
+    <string name="button_announcement">Button, %1$s. Double tap to activate, long press for options, swipe up for custom action</string>
+    <string name="button_generic_announcement">Button. Double tap to activate, long press for options, swipe up for custom action</string>
+</resources>

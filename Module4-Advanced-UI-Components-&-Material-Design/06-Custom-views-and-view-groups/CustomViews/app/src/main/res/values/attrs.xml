@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CircleView Attributes -->
+    <declare-styleable name="CircleView">
+        <attr name="circleColor" format="color"/>
+        <attr name="circleStrokeWidth" format="dimension"/>
+        <attr name="fillStyle" format="enum">
+            <enum name="fill" value="0"/>
+            <enum name="stroke" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- TwoColumnLayout Attributes -->
+    <declare-styleable name="TwoColumnLayout">
+        <attr name="columnCount" format="integer"/>
+        <attr name="columnSpacing" format="dimension"/>
+        <attr name="rowSpacing" format="dimension"/>
+    </declare-styleable>
+
+    <!-- CustomProgressView Attributes -->
+    <declare-styleable name="CustomProgressView">
+        <attr name="progressColor" format="color"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="progress" format="float"/>
+        <attr name="maxProgress" format="float"/>
+        <attr name="progressStrokeWidth" format="dimension"/>
+        <attr name="showText" format="boolean"/>
+    </declare-styleable>
+
+    <!-- EnhancedCircleView Attributes -->
+    <declare-styleable name="EnhancedCircleView">
+        <attr name="enhancedCircleColor" format="color"/>
+        <attr name="showBorder" format="boolean"/>
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="borderColor" format="color"/>
+    </declare-styleable>
+</resources>

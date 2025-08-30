@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude specific files or directories from backup.
+         While you can use the <include> tag to include specific files,
+         it's generally not needed because the default behavior is to
+         backup all files. -->
+</full-backup-content>
