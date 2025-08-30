@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Background Processing Demo"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Foreground Service Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Foreground Service"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnStartForegroundService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Foreground Service"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnStopForegroundService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop Foreground Service"
+            android:layout_marginBottom="16dp" />
+
+        <!-- WorkManager Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WorkManager"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnScheduleWork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Schedule Periodic Work"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnCancelWork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel Periodic Work"
+            android:layout_marginBottom="16dp" />
+
+        <!-- AlarmManager Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AlarmManager"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnScheduleAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Schedule Alarm (1 min)"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnCancelAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel Alarm"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Location Service Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location Tracking"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnStartLocationTracking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Location Tracking"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnStopLocationTracking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop Location Tracking"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Test Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Testing"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnTestNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Notification"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnShowWorkStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Work Status"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>
